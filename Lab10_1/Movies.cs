@@ -65,7 +65,7 @@ namespace Lab10_1
                 
             }
 
-            return ;
+            return ;\\ got lost here
 
         }
 
@@ -81,12 +81,12 @@ namespace Lab10_1
             do
             {
              
-
+                \\also got lost here
                 Console.WriteLine("What category are you interested in? ");
                 userInput = Console.ReadLine().ToLower();
 
                 
-               GetMovieByCategory(userInput);
+                GetMovieByCategory(userInput);
 
                 Console.WriteLine("What category are you interested in? ");
                 continueAnswer = Console.ReadLine().ToLower();
